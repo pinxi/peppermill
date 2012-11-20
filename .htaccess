@@ -1,5 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
-RewriteRule ^(.*) http://peppermillwc.com/index.htm [R=301,L]
+RewriteRule /breakfast.html http://peppermillwc.com/index.htm [R=301,L]
+RewriteRule /dinner.html http://peppermillwc.com/index.htm [R=301,L]
+RewriteRule /contact.html http://peppermillwc.com/index.htm [R=301,L]
+RewriteRule /index.html http://peppermillwc.com/index.htm [R=301,L]
 </IfModule>
