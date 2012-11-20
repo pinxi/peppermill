@@ -4,5 +4,4 @@ RewriteBase /
 Redirect 301 /contact.html http://peppermillwc.com
 Redirect 301 /dinner.html http://peppermillwc.com
 Redirect 301 /contact.html http://peppermillwc.com
-Redirect 301 /index.html http://peppermillwc.com
 </IfModule>
