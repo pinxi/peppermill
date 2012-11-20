@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^/(.*) http://peppermillwc.com/index.htm [R=301,L]
+</IfModule>
