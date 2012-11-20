@@ -1,0 +1,302 @@
+
+body{
+	background:transparent url(peppermill_rd_sm.gif) repeat scroll 0 0;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+}
+#container{
+	width:980px;
+	position:relative;
+	font: 90% Arial,sans-serif;
+	text-align:center;
+	background-color:#FFF;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 25px;
+	padding-bottom: 0px;
+	padding-left: 25px;
+}
+#fleur{
+	background:transparent url(fleur_rd.gif) repeat scroll 0px 0px;
+	padding: 16px
+}
+#blank{
+	background: #FFF;
+	padding:10px;
+	color: #333333;
+}
+#left{
+	float:left;
+	width:480px;
+	text-align: center;
+}
+#right{
+	margin-left:483px;
+	text-align: left;
+	padding:0 10px;
+}
+#navigation{
+	text-align:center;
+}
+.topitems{
+	width: 420px;
+	margin: 0 10px;
+	float:left;
+}
+.seconditems{
+	width: 274px;
+	margin: 0 10px;
+	float:left;
+}
+h1{
+	margin: 1em auto 0.3em;
+	color: #008C00;
+    font-size: 250%;
+	text-align:left;
+}
+#blank h1{
+	color: #802020;
+	text-align:center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 180%;
+	font-weight: bold;
+	font-style: normal;
+	margin: 10px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+h2{
+	color: #802020;
+	font: 200% cursive;
+	text-align:left;
+	margin-top: 0.2em;
+	margin-right: auto;
+	margin-bottom: 0.1em;
+	margin-left: auto;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 160%;
+	font-weight: bold;
+}
+
+p.announce{
+	text-align: right;
+	margin:10px;
+}
+#navigation p{
+	margin:0px;
+	padding: 5px;
+}
+.size,.sizepizza{
+	text-align: right;
+	margin:0px;
+	color:#bbbbbb;
+	font-style:italic;
+	font-size:80%;
+}
+.size span{
+	margin-left:10px;
+}
+.sizepizza span{
+	margin-left:15px;
+}
+p.disclaimer{
+	text-align: right;
+	clear:both;
+}
+
+dl{
+	width: 100%;
+	overflow: auto;
+	margin: 0 0 1em;
+    background: url(dot.gif) repeat-x 0 1.2em;
+}
+dt,dd.price{
+	background: #FFF;
+	font-size: 100%;
+	font-weight: bold;
+}
+dt{
+	float: left;
+	padding-top: 3px;
+	color: #F70000
+}
+dd{
+	margin:5px 0px 5px 10px;
+}
+dd.price{
+	float: right;
+	padding: 0 3px;
+	color: #AAA
+}
+.price span{
+	margin-left: 10px;
+}
+dd.ingredients{
+	float: left;
+	width:95%;
+	clear:both;
+	padding: 0;
+	margin:0px;
+	font: italic 90% Georgia,Times,sans-serif;
+	color: #555;
+}
+
+a:link, a:visited {
+	color: #FF9999;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #D6D6D6;
+	text-decoration: none;
+	border-bottom: 1px dotted #FF3333;
+}
+
+  .side{margin:0;width:393px}
+  .box {line-height:0; padding:0; margin:0; font-size:0px; height:7px;width:100%;}
+  .boxLarge{
+	width:393px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+  .boxLarge .content{
+	background-color: #802020
+}
+  .boxLarge ul{
+	list-style:none;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	padding: 10px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 60px;
+}
+  .boxLarge li {
+	padding-left:18px;
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(arrow_brown.gif);
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+}
+  #blank .boxLarge li {
+	margin-top:0px;
+	font-size: 1.1em;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+  .boxSmall{width:361px; margin:0 auto; padding:0 0 7px 0}
+  .boxSmall .content{
+	background-color: #333333;
+	padding:0 10px
+}
+  .boxSmall h2 {
+	color:#cccccc;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.6em;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	font-weight: bold;
+}
+.boxSmall p {
+	padding:0.5em;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: right;
+	margin-top: 0;
+	margin-right: 80px;
+	margin-bottom: 0;
+	margin-left: 0;
+	color: #CCCCCC;
+}
+.quote {
+	margin:50px 0 35px 0;
+}
+.family {
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 170px;
+}
+
+.logoLG {
+	text-align: center;
+}
+.lunch {
+	text-align: center;
+	clear: both;
+	margin: 20px 0 0 0;
+}
+.hours {
+	text-align: right;
+}
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: left;
+}
+#navigation p, #footer p{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #CCC;
+	margin: 0px;
+	padding: 5px;
+	text-align: center;
+}
+#footer p{
+	font-size: 0.8em;
+	color: #333;
+	text-align: center;
+}
+#navigation p a,#navigation p span {
+	font-weight: bold;
+	text-align: center;
+}
+#map {
+	height: 500px;
+	width: 400px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+#logoSM {
+	float: left;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#logo p {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0px;
+	padding: 0px;
+}
+#logo h1 a {
+	color: #802020;
+}
+#logo {
+height:95px;
+}
+.item {
+	font-weight: bold;
+}
+.desc {
+	font-weight: normal;
+}
