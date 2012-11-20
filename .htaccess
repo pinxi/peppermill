@@ -1,8 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
-RewriteRule http://peppermillwc.com/contact.html http://peppermillwc.com [R=301,L]
-RewriteRule http://peppermillwc.com/dinner.html http://peppermillwc.com [R=301,L]
-RewriteRule http://peppermillwc.com/contact.html http://peppermillwc.com [R=301,L]
-RewriteRule http://peppermillwc.com/index.html http://peppermillwc.com [R=301,L]
+RewriteRule /contact.html http://peppermillwc.com [R=301,L]
+RewriteRule /dinner.html http://peppermillwc.com [R=301,L]
+RewriteRule /contact.html http://peppermillwc.com [R=301,L]
+RewriteRule /index.html http://peppermillwc.com [R=301,L]
 </IfModule>
